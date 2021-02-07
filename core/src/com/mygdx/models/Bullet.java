@@ -51,4 +51,5 @@ public class Bullet extends SpaceObject{
         sh.circle(x - width / 2, y - height / 2, width / 2);
         sh.end();
     }
+
 }

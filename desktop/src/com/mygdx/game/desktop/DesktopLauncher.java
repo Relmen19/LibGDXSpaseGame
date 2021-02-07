@@ -9,7 +9,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.title = "jutgut";
 		config.width = 800;
-		config.height = 400;
+		config.height = 600;
 
 
 

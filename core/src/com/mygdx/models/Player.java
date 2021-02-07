@@ -45,7 +45,7 @@ public class Player extends SpaceObject{
 
         radians =  3.1415f / 2;
 
-        rotationSpeed = 9;
+        rotationSpeed = 5;
     }
 
     private void setShape(){
@@ -75,6 +75,7 @@ public class Player extends SpaceObject{
 
     public void shoot(){
         if(bullets.size() > MAX_BULLETS) return;
+
         bullets.add(new Bullet(x, y, radians));
     }
 
